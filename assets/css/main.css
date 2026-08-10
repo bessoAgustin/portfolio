@@ -2622,6 +2622,10 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			aspect-ratio: 4 / 3;
+			object-fit: cover;
+			object-position: top center;
+			border-radius: 0.5rem;
 		}
 
 			.image.fit:first-child {
@@ -3386,9 +3390,9 @@ input, select, textarea {
 				}
 
 		#intro img{
-			width: 15rem;
-			height: auto;
-			border-radius: 100%;
+			width: 17rem;
+			height: 20rem;
+			border-radius: 50%;
 			margin-block-end: 2rem;
 		}
 
