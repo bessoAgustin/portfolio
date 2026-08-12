@@ -3874,6 +3874,8 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
+				display:flex;
+				flex-direction: column;
 				border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
@@ -3891,6 +3893,10 @@ input, select, textarea {
 
 				#main > .posts > article:nth-child(-n + 2) {
 					border-top-width: 0;
+				}
+
+				#main > .posts > article > .actions {
+					margin-top: auto;
 				}
 
 			@media screen and (max-width: 980px) {
