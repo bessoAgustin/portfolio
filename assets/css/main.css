@@ -3617,6 +3617,19 @@ input, select, textarea {
 
 /* Nav */
 
+	/* Force hide HTML5 UP template navigation toggles & drawers */
+	
+	#navToggle,
+	#navPanel,
+	#titleBar,
+	.navToggle,
+	.navPanel {
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	pointer-events: none !important;
+	}
+
 	#nav {
 		color: #ffffff;
 		display: -moz-flex;
